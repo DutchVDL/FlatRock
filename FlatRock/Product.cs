@@ -8,7 +8,7 @@ namespace FlatRock
 {
     public class Product
     {
-        public string? Name { get; set; }
+        public string Name { get; set; }
         public string Price { get; set; }
         public string Rating { get; set; }
 
