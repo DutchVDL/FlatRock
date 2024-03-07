@@ -8,13 +8,13 @@ namespace FlatRock
 {
     public class Product
     {
-        public string Name { get; set; }
-        public string Price { get; set; }
-        public string Rating { get; set; }
+        public string? productName { get; set; }
+        public string? price { get; set; }
+        public string? rating { get; set; }
 
         public override string ToString()
         {
-            return $"{Name} , {Price} , {Rating}";
+            return $"{productName} , {price} , {rating}";
         }
 
     }

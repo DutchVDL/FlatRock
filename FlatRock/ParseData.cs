@@ -37,7 +37,7 @@ namespace FlatRock
 
                 var rating = NormalizeDecimalRating(productNode.GetAttributeValue("rating", "")).ToString();
 
-                products.Add(new Product { Name = name, Price = price, Rating = rating });
+                products.Add(new Product { productName = name, price = price, rating = rating });
             }
 
             return products;
